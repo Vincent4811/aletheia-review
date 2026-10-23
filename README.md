@@ -2,6 +2,10 @@
 
 **Evidence-first scholarly review.**
 
+![Aletheia Review overview: manuscript, figures and supplements flow through evidence reading, citation checks, method and claim assessment, and feasible revisions into a six-section reviewer report.](assets/aletheia-review-overview.png)
+
+[View or download the full-size infographic](assets/aletheia-review-overview.png). AI-generated overview graphic, checked against the current skill instructions; not a performance benchmark.
+
 A reusable agent skill for constructive academic manuscript review: verify the literature, locate the real problem, and give the author a practical way to resolve it.
 
 The name evokes *aletheia*, a Greek term associated with truth and disclosure. The package is **Aletheia Review**; the skill stays **Review**, with the identifier **`review`**. This is not a claim that the name is legally exclusive.
@@ -68,7 +72,9 @@ Do not assume an AI review verifies raw data, proves a causal mechanism, reprodu
 ## Package
 
 ```text
+LICENSE
 plugin.json
+assets/aletheia-review-overview.png
 skills/review/
   SKILL.md
   agents/openai.yaml
@@ -80,10 +86,16 @@ docs/validation.md
 
 ## Provenance and Validation
 
-The workflow draws on an author-provided academic reviewer prompt and the supplied King and Worthington paper, *AI Article Reviews Dominate Human Peer Reviews at Their Best: Evidence and Policy Choices*. The original PDF is not redistributed. This is an independent implementation, not an official product of the paper's authors, Harvard, Nature, or OpenAI. See [source basis](skills/review/references/source-basis.md).
+The workflow draws on an author-provided academic reviewer prompt and the supplied Gary King and Steven Worthington paper, *AI Article Reviews Dominate Human Peer Reviews at Their Best: Evidence and Policy Choices*, including its discussion of constructive feedback and retrieval-supported reviewer prompting.
+
+[Gary King](https://www.wcfia.harvard.edu/people/gary-king) is the Albert J. Weatherhead III University Professor at Harvard University; [Steven Worthington](https://www.iq.harvard.edu/people/steven-worthington-0) is Director of Data Science Services at Harvard's Institute for Quantitative Social Science. These links verify their institutional roles, not an endorsement of this project. The supplied PDF does not include the prompt appendices, so the Chinese prompt has not been verified as their verbatim original wording.
+
+The original PDF is not redistributed. This is an independent implementation, not an official product of the paper's authors, Harvard, Nature, or OpenAI. See [source basis](skills/review/references/source-basis.md).
 
 Metadata, reference paths, packaging, and disclosure checks have been tested. This is not a benchmark demonstrating review accuracy, superiority to human reviewers, or cross-client end-to-end performance. See [validation scope](docs/validation.md).
 
 ## Licensing
 
-No open-source license is granted by this initial publication. Public visibility is not an additional permission to reuse or redistribute the work. A reuse license can be added by the repository owner later. Third-party source material retains its own rights.
+This project's original skill instructions, documentation and overview graphic are released under the [MIT License](LICENSE). Copyright (c) 2026 Vincent4811. Third-party papers and other external source material retain their own rights and are not relicensed by this repository.
+
+If this workflow is useful, star the repository, try it on a manuscript you are authorized to process, and share grounded feedback through GitHub Issues. Check citations and substantive criticisms yourself before acting on an AI-generated review.

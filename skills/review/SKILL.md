@@ -1,5 +1,6 @@
 ---
 name: review
+license: MIT
 description: "Review scholarly manuscripts for actionable, evidence-verified pre-submission improvement. Use for Review, @Review, manuscript peer review, or academic reviewer feedback; not code review, literature-review drafting, or author rebuttals."
 ---
 
