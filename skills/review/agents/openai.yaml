@@ -1,0 +1,6 @@
+interface:
+  display_name: "Review"
+  short_description: "Evidence-verified scholarly manuscript review"
+  default_prompt: "Use $review to critically review the supplied manuscript, verify relevant literature, and return the six-section constructive reviewer report."
+policy:
+  allow_implicit_invocation: true

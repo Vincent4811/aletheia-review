@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "aletheia-review",
+  "version": "1.0.0",
+  "description": "Evidence-first scholarly review: verified citations, precise criticism, and actionable revisions.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Aletheia Review",
+        "shortDescription": "Evidence-first scholarly manuscript review"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Manuscripts and private research material never belong in this package.
+*.pdf
+*.doc
+*.docx
+*.xlsx
+*.pptx
+*.h5ad
+*.fastq
+*.fastq.gz
+data/
+manuscripts/
+private/
+outputs/
+backups/
+
+# Credentials, machine-local settings, and operating-system metadata.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.codex-remote-attachments/
+desktop.ini
+Thumbs.db
+.DS_Store
+__pycache__/
