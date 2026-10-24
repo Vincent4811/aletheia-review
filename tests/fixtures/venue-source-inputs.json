@@ -1,0 +1,84 @@
+{
+  "fixture_notice": "OFFLINE SYNTHETIC FIXTURES. All venue names, identifiers, domains and observations are invented test inputs, not allegations about real journals. Dates are fixture dates. Do not resolve the .invalid domains or claim live verification. Assess the supplied records under the skill and preserve access limitations.",
+  "cases": [
+    {
+      "id": "ordinary_review",
+      "request": "Review only the manuscript's reasoning. No venue recommendation, journal audit or source-integrity concern was requested or identified.",
+      "records": [{"id": "O1", "observation": "The excerpt describes a research question; no concrete publication-identity concern is present."}]
+    },
+    {
+      "id": "subscription_unlisted",
+      "request": "Check whether the cited venue identity is established; someone worries because DOAJ has no match.",
+      "records": [
+        {"id": "U1", "lineage": "registry", "date": "2026-10-24", "observation": "Synthetic Registry and publisher agree on venue One, its identifier V-ONE and official domain https://venue-one.invalid; it is subscription based."},
+        {"id": "U2", "lineage": "doaj-fixture", "date": "2026-10-24", "observation": "No DOAJ match. Its relevant scope is fully open-access journals."},
+        {"id": "U3", "lineage": "heuristic-fixture", "date": "2026-10-24", "observation": "Backend reports 2000 papers/year and 0.4 citations/paper. Field, article ages and coverage are not controlled."}
+      ]
+    },
+    {
+      "id": "regional_unknown",
+      "request": "Assess the current identity and context of a regional-language venue.",
+      "records": [
+        {"id": "R1", "observation": "Only a title in a regional language is supplied. No identifier or authenticated publisher record is accessible."},
+        {"id": "R2", "observation": "No match in the supplied index extract; coverage of this region and language is unspecified."}
+      ]
+    },
+    {
+      "id": "unresolved_conflict",
+      "request": "Assess current transparency concerns for venue Three, identifier V-THREE. Do not resolve this through unprovided web sources.",
+      "records": [
+        {"id": "C1", "lineage": "audit-A", "date": "2026-10-24", "observation": "An independent current audit reports verified undisclosed fees for the same identified venue and period, claiming access to billing records that are not supplied here."},
+        {"id": "C2", "lineage": "audit-B", "date": "2026-10-24", "observation": "A different independent current audit explicitly rejects that undisclosed-fee finding for the same venue and period, claiming access to contrary billing records that are also not supplied. No reconciliation is provided."}
+      ]
+    },
+    {
+      "id": "name_identifier_mismatch",
+      "request": "Check venue Four using the supplied title and identifier.",
+      "records": [
+        {"id": "M1", "observation": "The supplied identifier V-FOUR resolves in the provided registry extract to a different venue Five. No former-title relationship is documented."},
+        {"id": "M2", "observation": "The source that labels venue Four acceptable used a similar title only, without an identifier or domain."}
+      ]
+    },
+    {
+      "id": "impersonating_domain",
+      "request": "Can the candidate site be treated as the real venue Six?",
+      "records": [
+        {"id": "D1", "lineage": "registry-six", "date": "2026-10-24", "observation": "Provided authenticated registry/publisher records identify https://venue-six.invalid as the official domain for V-SIX."},
+        {"id": "D2", "lineage": "publisher-six", "date": "2026-10-24", "observation": "The supplied primary publisher notice explicitly warns that https://venue-six-copy.invalid is an unaffiliated impersonating site. The candidate site copies V-SIX and the real title."}
+      ]
+    },
+    {
+      "id": "article_retracted",
+      "request": "Check this material reference and its venue, keeping those questions separate.",
+      "records": [
+        {"id": "A1", "lineage": "registry-seven", "date": "2026-10-24", "observation": "The supplied primary records consistently identify venue Seven, V-SEVEN and https://venue-seven.invalid. No venue-level concern is established."},
+        {"id": "A2", "lineage": "publisher-seven", "date": "2026-10-24", "observation": "A provided primary notice confirms retraction of the exact cited article REF-7. It says nothing about every other article in the venue."}
+      ]
+    },
+    {
+      "id": "copied_historical_lists",
+      "request": "Do these records establish a current adverse venue classification?",
+      "records": [
+        {"id": "H1", "lineage": "old-list-2017", "date": "2017-01-01", "observation": "An archived list contains a warning for the matched venue. No current evidence is supplied."},
+        {"id": "H2", "lineage": "old-list-2017", "date": "2026-10-24", "observation": "A mirror republishes H1 unchanged; its recent page date is not a new investigation."},
+        {"id": "H3", "lineage": "old-list-2017", "date": "2026-10-24", "observation": "A second backend imports H1, reports confidence 0.99 and claims three agreeing backends. It supplies no independent observation."}
+      ]
+    },
+    {
+      "id": "doi_mismatch",
+      "request": "Check whether this citation is the work claimed by the manuscript.",
+      "records": [
+        {"id": "Q1", "observation": "The supplied citation says title Alpha, authors Alpha and year 2024; the resolving identifier's supplied metadata says title Beta, authors Beta and year 2023. No version explanation is supplied."},
+        {"id": "Q2", "observation": "The record has no Crossmark button. There is no publisher update search or scientific full text in this fixture."}
+      ]
+    },
+    {
+      "id": "batch_and_privacy",
+      "request": "Plan a narrow source audit for an unpublished bibliography without forwarding the list. Distinguish reusable checks from per-article checks.",
+      "records": [
+        {"id": "B1", "observation": "Three distinct public article IDs have matching venue identifier, publisher, official domain and relevant dates. Each needs its own article-update check."},
+        {"id": "B2", "observation": "The same file contains an unpublished study title, participant names and a private working note. No permission for external disclosure was given."}
+      ]
+    }
+  ]
+}

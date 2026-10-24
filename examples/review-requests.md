@@ -32,6 +32,18 @@ $review 審查這份 mixed-methods 論文。先辨識質性分析取向，再檢
 $review I can provide only the abstract. Give a bounded review, clearly identify what cannot be assessed, and do not infer missing controls or methods from the absent full text.
 ```
 
+## Optional Venue and Citation-Source Audit
+
+```text
+$review Review this manuscript and check the identity and current status of the important cited sources. Distinguish venue identity, article updates and scientific validity. Preserve conflicting or insufficient evidence, use no confidence percentages, and keep the six-section report.
+```
+
+```text
+$review 請評估這個投稿期刊的身分、出版者、網址及相關查核紀錄。不要因為 DOAJ 查無收錄就定性為掠奪性期刊；不要用未經校準的分數。將適用的結果放進六段報告，清楚說明資料與存取限制。
+```
+
+Ordinary review does not trigger a full journal sweep. If a separate audit ledger is desired, request it explicitly; it is not a seventh report section. This optional workflow does not authorize uploading an unpublished reference list or installing a third-party tool.
+
 ## ChatGPT
 
 When the current ChatGPT client has actually installed the skill, select Review from its `@` menu and use the same request text. The `$review` examples above are Codex syntax; they do not automatically select a skill in other products.

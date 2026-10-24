@@ -39,6 +39,8 @@ Map each citation to the exact concern it informs. A related title is not proof 
 
 Keep a private evidence ledger of query/date, source URL, verified metadata, accessible content, supported claim and relevant manuscript anchor. Do not append this process log to the formal report unless requested. If live verification is unavailable, omit unverified references, mark literature/novelty assessment incomplete in the report and never imply that searching occurred. Offer a bounded internal review rather than fabricating a completed literature review.
 
+For an explicit journal/source audit, a publication-venue recommendation, or a concrete identity/integrity concern about an important cited source, read [optional journal and citation-source checks](references/venue-source-check.md). Do not run a full venue sweep for ordinary manuscript review. Keep venue identity, article status and scientific validity separate; report evidence-based categorical states, never uncalibrated confidence scores. Fold relevant findings into the existing six sections, without adding a seventh report section or automatically changing readiness.
+
 ### 3. Test the argument and execution
 
 Evaluate both positioning and technical execution. Check question definition, contribution relative to verified prior work, design, identification or interpretive logic, evidence sufficiency, alternative explanations, robustness, ethics and presentation. Read only the relevant branches of [method-specific checks](references/method-specific-checks.md) for empirical, qualitative, mixed-methods, review or computational work.
@@ -95,3 +97,5 @@ No paid service, unattended loop, external submission, author contact or journal
 This workflow independently adapts the supplied Chinese prompt and the principles/structure of King and Worthington's [Appendix C, Tuned AI Reviewer Prompt](https://gking.harvard.edu/files/peerless-supp.pdf), checked on 2026-10-25. Appendix B is the original rapidPeer guide, not the tuned prompt. The purpose is reusable author-advisory review, not journal gatekeeping; privacy and method-specific checks are local extensions.
 
 Consult [source basis](references/source-basis.md) only for provenance, source results, denominator caveats or source-versus-implementation boundaries. The study's 100%/87% review preferences are not this skill's measured accuracy, acceptance rate or guarantee. Do not hard-code its model/search count, import its percentages into manuscript assessments or routinely cite it in unrelated reviews.
+
+The optional venue/source module draws on Florath's Aletheia-Probe architecture and current official publishing guidance, with explicit departures from its heuristic scores. See the source-basis reference for verified literature and claim boundaries. Aletheia-Probe is a separate project and is not installed or required by this skill.

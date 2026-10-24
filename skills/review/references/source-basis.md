@@ -48,3 +48,17 @@ Third-party papers, prompts and translations retain their own rights. This proje
 ## Companion workflows
 
 Available citation-verification and domain skills are optional supporting tools. Do not import another skill's three-reviewer format, fabricated independence or full research-to-paper pipeline. Do not add this source paper to unrelated manuscript bibliographies merely because it informed the skill.
+
+## Optional venue and citation-source module
+
+Primary materials checked on 2026-10-25:
+
+1. Andreas Florath. 2026. *Aletheia-Probe: A Tool for Automated Journal Assessment*. arXiv:2601.10431v1, submitted 2026-01-15. DOI: [10.48550/arXiv.2601.10431](https://doi.org/10.48550/arXiv.2601.10431). [Full text](https://arxiv.org/pdf/2601.10431). Sections 3.4-3.6 inform coverage limits, visible disagreement, dated provenance and insufficient-data states. Section 6 distinguishes venue legitimacy from article quality; the abstract/conclusion defer comprehensive empirical validation. This is an architecture preprint, not evidence of calibrated classification accuracy.
+2. DOAJ. [Guide to applying](https://doaj.org/apply/guide/). The official scope is open-access journals; its ISSN/name and transparency criteria inform identity checks. Absence from this directory cannot classify a subscription/hybrid or uncovered journal as predatory. DOAJ also cautions against using impact metrics as substitutes for assessment.
+3. Think. Check. Submit. [Journals checklist](https://thinkchecksubmit.org/journals/). Primary practical guidance for checking journal identity, publisher contacts, peer-review transparency, indexing/archiving and fees. It supports questions to verify, not an automatic reputation score.
+4. Crossref. [Crossmark](https://www.crossref.org/services/crossmark/). Describes record-level corrections, retractions and updates, dependent on participating members' metadata. Even the presence of Crossmark is not a guarantee; absence or missing update data cannot establish an unblemished publication record.
+5. Page MJ, McKenzie JE, Bossuyt PM, et al. 2021. *The PRISMA 2020 statement: an updated guideline for reporting systematic reviews*. BMJ 372:n71. DOI: [10.1136/bmj.n71](https://doi.org/10.1136/bmj.n71). [Official checklist](https://www.prisma-statement.org/s/PRISMA_2020_checklist-ab3g.pdf), especially items 5, 6 and 11, informs explicit eligibility, search dates and study-level risk of bias. It does not mandate blanket exclusions based on a journal warning list.
+
+Adopted from Florath: source-by-source observations, identity normalization, explicit uncertainty and time-aware reuse. Rejected as automatic rules: opaque or uncalibrated confidence scores, backend majority voting, universal publication/citation thresholds and list membership as a substitute for article appraisal. Copied lists may share a provenance chain. Aletheia-Probe remains an independent project; no package, executable or backend is installed or required.
+
+These references explain the module's design, not evidence that Aletheia Review detects predatory journals accurately. The module supplies reasoned, scoped findings and a path to manual verification; neither this integration nor the source paper establishes a calibrated probability, measured sensitivity/specificity or universal applicability. Do not add this bibliography to a user's manuscript unless actually relevant to the requested review.

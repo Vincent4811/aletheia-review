@@ -23,6 +23,14 @@ These are acceptance criteria for future end-to-end testing, not claims that a m
 | Strong manuscript | Do not manufacture major concerns to fill a quota. |
 | Code review or Review-article drafting | Route away from this manuscript-review skill. |
 
+## Optional Venue/Source Module (v1.1.0)
+
+This module has a separate [offline test protocol](../tests/README.md), [synthetic input packet](../tests/fixtures/venue-source-inputs.json), a separately held [decision oracle](../tests/fixtures/venue-source-expected.json), and a [result checker](../tests/check_venue_results.py). See the [dated validation record](venue-source-validation.md) for actual outcomes and limitations; do not infer that all earlier acceptance cases were executed.
+
+The ten cases cover non-activation, subscription/index absence, regional coverage gaps, unresolved current disagreement, title/identifier mismatch, candidate-domain impersonation, article-specific retraction, copied historical evidence, citation-metadata mismatch, and batch/privacy planning. The checker also verifies access provenance, evidence pointers, absence of numeric confidence fields and the six-section output contract. Self-reported flags are inspected alongside reasons and report text, not treated as instrumented proof of security or correct live retrieval.
+
+The expected dispositions stay frozen. Clarifying an omitted serialization requirement requires recording the original failed trial and a fresh run, rather than altering the oracle or editing the original result to pass. Deliberately corrupted outputs should be rejected by the checker. This tests bounded instruction-following, not live venue-classification performance.
+
 ## Not Established
 
 No claim is made of human-reviewer superiority, a measured hallucination rate, complete cross-client installation, raw-data reproduction, or independent multi-model blind validation. Structural checks do not substitute for reviewing real papers and auditing the resulting citations and criticisms.

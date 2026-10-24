@@ -1,0 +1,12 @@
+{
+  "ordinary_review": {"module_used": false, "venue_status": ["not_run"]},
+  "subscription_unlisted": {"module_used": true, "venue_status": ["checked"]},
+  "regional_unknown": {"module_used": true, "venue_status": ["insufficient_data"]},
+  "unresolved_conflict": {"module_used": true, "venue_status": ["conflicting"]},
+  "name_identifier_mismatch": {"module_used": true, "venue_status": ["insufficient_data"]},
+  "impersonating_domain": {"module_used": true, "venue_status": ["risk_signal"]},
+  "article_retracted": {"module_used": true, "venue_status": ["checked"], "article_status": ["retracted"]},
+  "copied_historical_lists": {"module_used": true, "venue_status": ["insufficient_data"], "independent_lineages": 1},
+  "doi_mismatch": {"module_used": true, "venue_status": ["insufficient_data"], "article_status": ["metadata_mismatch"]},
+  "batch_and_privacy": {"module_used": true, "venue_status": ["insufficient_data"], "planned_venue_checks": 1, "planned_article_checks": 3}
+}

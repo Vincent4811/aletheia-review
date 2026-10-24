@@ -39,6 +39,16 @@ Acknowledgment: the user-supplied Chinese excerpt credits [Austin Wang](https://
 
 This is an instruction-only skill, not an autonomous review service. It does not include a model, search subscription, API key, manuscript database, or MCP server. It uses the tools available in the host application.
 
+## Optional Journal and Citation-Source Checks
+
+The [optional module](skills/review/references/venue-source-check.md) activates for an explicit journal/source audit, a requested venue recommendation, or a concrete identity/integrity concern about an important citation. Ordinary manuscript review does not automatically scan every journal.
+
+It compares journal name, ISSN, publisher and domain; checks material article updates; preserves dates, source disagreements and coverage gaps; and reuses matching venue checks without merging DOI-specific article status. Outcomes are **checked**, **risk signal**, **conflicting**, or **insufficient data**, with evidence and next steps. No uncalibrated confidence percentage or aggregate reputation score is used.
+
+Unlisted is not predatory, indexed is not scientifically valid, and venue concerns do not automatically lower manuscript readiness or exclude a study. Relevant findings stay within the existing six report sections. The module is informed by [Florath's Aletheia-Probe paper](https://doi.org/10.48550/arXiv.2601.10431) and [official guidance](skills/review/references/source-basis.md#optional-venue-and-citation-source-module), but installs no third-party classifier or extra dependency.
+
+Example: `$review Review this manuscript and check the identity and publication status of the important cited sources. Keep the six-section report; disclose uncertainty without numeric confidence scores.`
+
 ## Install in Codex
 
 Ask Codex's skill installer:
