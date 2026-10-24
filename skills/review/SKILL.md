@@ -92,4 +92,6 @@ No paid service, unattended loop, external submission, author contact or journal
 
 ## Source basis
 
-The user's supplied Chinese reviewer prompt defines this workflow. The supplied `peerless.pdf` informs the constructive, retrieval-supported stance; it is not a universal validation of AI review or a mandatory model choice. Consult [source basis](references/source-basis.md) only for provenance, source limitations or evaluation of that reference paper. Do not routinely add it to manuscript bibliographies.
+This workflow independently adapts the supplied Chinese prompt and the principles/structure of King and Worthington's [Appendix C, Tuned AI Reviewer Prompt](https://gking.harvard.edu/files/peerless-supp.pdf), checked on 2026-10-25. Appendix B is the original rapidPeer guide, not the tuned prompt. The purpose is reusable author-advisory review, not journal gatekeeping; privacy and method-specific checks are local extensions.
+
+Consult [source basis](references/source-basis.md) only for provenance, source results, denominator caveats or source-versus-implementation boundaries. The study's 100%/87% review preferences are not this skill's measured accuracy, acceptance rate or guarantee. Do not hard-code its model/search count, import its percentages into manuscript assessments or routinely cite it in unrelated reviews.

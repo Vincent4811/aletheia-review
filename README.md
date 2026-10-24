@@ -10,6 +10,23 @@ A reusable agent skill for constructive academic manuscript review: verify the l
 
 The name evokes *aletheia*, a Greek term associated with truth and disclosure. The package is **Aletheia Review**; the skill stays **Review**, with the identifier **`review`**. This is not a claim that the name is legally exclusive.
 
+## A Research-Informed Reviewer You Can Reuse
+
+Turn a carefully designed pre-submission review prompt into a persistent skill, rather than pasting a long prompt into every conversation. Improve the current paper with consequential criticism, relevant prior work and feasible revisions. This is an adviser, not an acceptance gatekeeper.
+
+Gary King and Steven Worthington's October 22, 2026 [Harvard working paper](https://gking.harvard.edu/peerless/) and [supplement](https://gking.harvard.edu/files/peerless-supp.pdf) motivate this workflow:
+
+| Evaluation | Reported result | What it means |
+| --- | --- | --- |
+| GPT-5.5 judging web-enabled AI reviews | 100% of decided comparisons: 132/132 | Table S2's tuned condition includes 134 pairs, two undecided. This is preference, not accuracy. |
+| Three former journal editors | 26/30 judgments, about 87% | Each judged the same 10 blinded review pairs without the manuscripts. Not 30 independent papers or 87% of all editors. |
+
+The tuned reviewer was Claude Opus 4.8 at maximum effort with web retrieval; GPT-5.5 was the judge. These results are **not Aletheia Review's measured performance**, an acceptance rate or proof that human reviewers are obsolete. The study did not measure improvements in subsequent revisions. See [source details and denominator caveats](skills/review/references/source-basis.md).
+
+**Appendix C is the tuned AI reviewer prompt; Appendix B is the original rapidPeer guide.** Aletheia independently adapts C's constructive, retrieval-supported principles and six-section structure, adding privacy and method-specific checks. Similar instructions do not reproduce the experiment or transfer its results to another model.
+
+Acknowledgment: the user-supplied Chinese excerpt credits [Austin Wang](https://www.facebook.com/wearytolove) with sharing the study and a Chinese rendering of its prompt. That is the reported discovery/translation route, not the evidence for the study's numbers.
+
 ## What It Does
 
 - Reads the supplied manuscript and accessible supplements, including figures and tables when the host can inspect them.
@@ -86,9 +103,9 @@ docs/validation.md
 
 ## Provenance and Validation
 
-The workflow draws on an author-provided academic reviewer prompt and the supplied Gary King and Steven Worthington paper, *AI Article Reviews Dominate Human Peer Reviews at Their Best: Evidence and Policy Choices*, including its discussion of constructive feedback and retrieval-supported reviewer prompting.
+The workflow draws on the supplied Chinese prompt and King and Worthington's *AI Article Reviews Dominate Human Peer Reviews at Their Best: Evidence and Policy Choices*. On October 25, 2026, the primary paper and supplement were checked directly, including Appendices B/C, F.3 and Table S2. Appendix C's role, workflow and six-section format align with the Chinese text. This is an independent adaptation, not a certified literal translation or verbatim redistribution.
 
-[Gary King](https://www.wcfia.harvard.edu/people/gary-king) is the Albert J. Weatherhead III University Professor at Harvard University; [Steven Worthington](https://www.iq.harvard.edu/people/steven-worthington-0) is Director of Data Science Services at Harvard's Institute for Quantitative Social Science. These links verify their institutional roles, not an endorsement of this project. The supplied PDF does not include the prompt appendices, so the Chinese prompt has not been verified as their verbatim original wording.
+[Gary King](https://www.wcfia.harvard.edu/people/gary-king) is the Albert J. Weatherhead III University Professor at Harvard University; [Steven Worthington](https://www.iq.harvard.edu/people/steven-worthington-0) is Director of Data Science Services at Harvard's Institute for Quantitative Social Science. These links verify institutional roles, not endorsement of this project.
 
 The original PDF is not redistributed. This is an independent implementation, not an official product of the paper's authors, Harvard, Nature, or OpenAI. See [source basis](skills/review/references/source-basis.md).
 
