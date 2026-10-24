@@ -2,9 +2,9 @@
 
 **Evidence-first scholarly review.**
 
-![Aletheia Review overview: manuscript, figures and supplements flow through evidence reading, citation checks, method and claim assessment, and feasible revisions into a six-section reviewer report.](assets/aletheia-review-overview.png)
+![Aletheia Review v2: Harvard research context reports 100 percent GPT-5.5 preference among 132 decided pairs, with two undecided, and about 87 percent former-editor preference across 26 of 30 judgments. These are not accuracy, acceptance or Aletheia performance rates. Appendix C principles connect manuscript inputs to a six-section review.](assets/aletheia-review-overview-v2.png)
 
-[View or download the full-size infographic](assets/aletheia-review-overview.png). AI-generated overview graphic, checked against the current skill instructions; not a performance benchmark.
+[Download the English LinkedIn infographic (v2)](assets/aletheia-review-overview-v2.png). This AI-generated poster separates the source study's preference results from Aletheia's workflow and summarizes Appendix C. Sources are [Supplement F.3 and Table S2](https://gking.harvard.edu/files/peerless-supp.pdf); these are not measured Aletheia results. [Original landscape overview](assets/aletheia-review-overview.png) remains available.
 
 A reusable agent skill for constructive academic manuscript review: verify the literature, locate the real problem, and give the author a practical way to resolve it.
 
@@ -91,7 +91,7 @@ Do not assume an AI review verifies raw data, proves a causal mechanism, reprodu
 ```text
 LICENSE
 plugin.json
-assets/aletheia-review-overview.png
+assets/aletheia-review-overview-v2.png
 skills/review/
   SKILL.md
   agents/openai.yaml
