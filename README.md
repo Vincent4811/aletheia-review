@@ -54,7 +54,7 @@ Example: `$review Review this manuscript and check the identity and publication 
 Ask Codex's skill installer:
 
 ```text
-$skill-installer Install skills/review from https://github.com/Vincent4811/aletheia-review.
+$skill-installer Install skills/review from https://github.com/Vincent4811/aletheia-reviewer.
 ```
 
 Then invoke the installed skill:
